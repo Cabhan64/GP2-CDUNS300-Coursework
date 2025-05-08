@@ -87,10 +87,10 @@ void MainGame::processInput()
 						myCamera.MoveRight(0.1);
 						break;
 					case SDLK_UP:
-						myCamera.MoveForward(0.1);
+						myCamera.MoveForward(0.5);
 						break;
 					case SDLK_DOWN:
-						myCamera.MoveForward(-0.1);
+						myCamera.MoveForward(-0.5);
 						break;
 
 
@@ -148,6 +148,7 @@ void MainGame::drawGame()
 	Texture texture3("..//res//Doom.jpg"); //load texture
 	Texture texture4("..//res//Rainbow.jpg"); //load texture
 	Texture texture5("..//res//Metal.jpg");//load texture
+	Texture texture6("..//res//brickwall.jpg");//load texture
 	Texture textureB("..//res//Normal.jpg");
 	//textureB.loadNormals("..//res//Normal.jpg"); not using due to lag
 	//due to not having a empty default consturctor, must be set here, but causes lag as scope increses
@@ -202,7 +203,7 @@ void MainGame::drawGame()
 	transform3.SetPos(glm::vec3(-5.0, 0.0, -0.3));
 	transform3.SetRot(glm::vec3(counter, counter, counter));
 	transform3.SetScale(glm::vec3(0.1, 0.1, 0.1));
-	texture3.Bind(0);
+	texture6.Bind(0);
 	if (Press1) {
 		shader6.Bind();
 		linkFlat(shader6, transform3);
