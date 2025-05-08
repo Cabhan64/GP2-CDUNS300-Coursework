@@ -1,0 +1,23 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Lab1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Display.cpp
+C:\Users\User\Downloads\GP Week6\GP Week6\GP2-CDUNS300-Coursework\Lab1\Display.cpp(57,107): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\User\Downloads\GP Week6\GP Week6\GP2-CDUNS300-Coursework\Lab1\Display.cpp(57,94): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  main.cpp
+  MainGame.cpp
+C:\Users\User\Downloads\GP Week6\GP Week6\GP2-CDUNS300-Coursework\Lab1\MainGame.cpp(84,26): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\User\Downloads\GP Week6\GP Week6\GP2-CDUNS300-Coursework\Lab1\MainGame.cpp(87,26): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\User\Downloads\GP Week6\GP Week6\GP2-CDUNS300-Coursework\Lab1\MainGame.cpp(90,28): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\User\Downloads\GP Week6\GP Week6\GP2-CDUNS300-Coursework\Lab1\MainGame.cpp(93,28): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\User\Downloads\GP Week6\GP Week6\GP2-CDUNS300-Coursework\Lab1\MainGame.cpp(98,22): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\User\Downloads\GP Week6\GP Week6\GP2-CDUNS300-Coursework\Lab1\MainGame.cpp(101,22): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\User\Downloads\GP Week6\GP Week6\GP2-CDUNS300-Coursework\Lab1\MainGame.cpp(104,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\User\Downloads\GP Week6\GP Week6\GP2-CDUNS300-Coursework\Lab1\MainGame.cpp(107,24): warning C4305: 'argument': truncation from 'double' to 'float'
+  Mesh.cpp
+C:\Users\User\Downloads\GP Week6\GP Week6\GP2-CDUNS300-Coursework\Lab1\Mesh.cpp(36,20): warning C4018: '<': signed/unsigned mismatch
+  obj_loader.cpp
+C:\Users\User\Downloads\GP Week6\GP Week6\GP2-CDUNS300-Coursework\Lab1\obj_loader.cpp(378,16): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  Shader.cpp
+  Texture.cpp
+  Generating Code...
+  stb_image.c
+  Lab1.vcxproj -> C:\Users\User\Downloads\GP Week6\GP Week6\GP2-CDUNS300-Coursework\Debug\Labs.exe
